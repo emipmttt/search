@@ -1,3 +1,3 @@
-export default (value)=>{
-    return value ? "Active" : "Inactive"
-}
+export default (value = Boolean) => {
+  return value ? "Active" : "Inactive";
+};
