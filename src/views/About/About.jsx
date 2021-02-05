@@ -17,7 +17,7 @@ const About = () => {
       <h2 className="text-xl mt-5">Links</h2>
       <ul className="mt-3">
         <li>
-          <a target="_blank" href="https://github.com/emipmttt/tasks">
+          <a target="_blank" href="https://github.com/emipmttt/search">
             Repo
           </a>
         </li>
