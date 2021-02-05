@@ -1,0 +1,5 @@
+{
+    "moduleNameMapper": {
+        "^@/(.*)$": "/src/$1"
+    }
+}

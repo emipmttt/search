@@ -1,4 +1,4 @@
 // pantalla default
 import React from "react";
 
-export default () => <>Error</>;
+export default () => <>Error 404</>;
