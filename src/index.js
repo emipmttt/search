@@ -11,7 +11,7 @@ import reducers from "./store/reducers";
 
 // estado global
 const initialState = {
-  taskList: [],
+  searchText: "",
 };
 
 // creando estado global

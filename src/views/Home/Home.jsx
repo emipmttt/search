@@ -1,30 +1,16 @@
-import React, { useState } from "react";
-import { connect } from "react-redux";
-import { setSearchText } from "@/store/actions";
+import React from "react";
+import Search from "./components/Search/Search";
+import ResultBlock from "./components/ResultBlock/ResultBlock";
 
-const Home = ({ searchText, setSearchText }) => {
-  const inputHandle = (e) => {
-    setSearchText(e.target.value);
-  };
+import collections from "@/services/collections.js";
 
+export default () => {
   return (
     <>
-      <input
-        onInput={inputHandle}
-        value={searchText}
-        type="text"
-        placeholder="Search ..."
-      />
+      <Search />
+      {collections.map((collection, i) => (
+        <ResultBlock collection={collection} key={i} />
+      ))}
     </>
   );
 };
-
-const mapStateToProps = (state) => {
-  return {
-    searchText: state.searchText,
-  };
-};
-const mapDispatchToProps = {
-  setSearchText,
-};
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
