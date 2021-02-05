@@ -30,7 +30,7 @@ const ResultBlock = ({ collection, searchText }) => {
 
   return (
     <>
-      <div className="card">
+      <div id={collection.title} className="card">
         <h2>{collection.title}</h2>
 
         <table className="mt-5">

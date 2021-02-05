@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { connect } from "react-redux";
 
 // componentes para rutas
 

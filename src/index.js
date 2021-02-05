@@ -12,6 +12,7 @@ import reducers from "./store/reducers";
 // estado global
 const initialState = {
   searchText: "",
+  selectedCollection: "",
 };
 
 // creando estado global
