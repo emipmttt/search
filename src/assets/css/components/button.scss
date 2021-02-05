@@ -1,0 +1,21 @@
+button {
+    padding: 3px 20px;
+    background-color: $primary;
+    color: white;
+    border-radius: 3px;
+    transition: 0.5s;
+    box-shadow: 0px 1px 5px transparent;
+    margin: 5px 0px;
+}
+
+button.no-fill {
+    background-color: white;
+    border: solid 1px $primary;
+
+    color: $primary;
+}
+
+button:hover {
+    box-shadow: 0px 1px 5px $primary;
+    transition: 0.3s;
+}
