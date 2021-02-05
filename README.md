@@ -20,6 +20,12 @@ npm run start
 npm run build
 ```
 
+## Test project
+
+```
+npm run test
+```
+
 ## About docs folder
 
 We will use docs folder to make a deploy into github pages
